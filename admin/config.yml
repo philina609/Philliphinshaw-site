@@ -1,0 +1,38 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/static/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - file: "content/data.json"
+        label: "Homepage Content"
+        name: "data"
+        fields:
+          - { label: "Site Title", name: "site.title", widget: "string" }
+          - { label: "Brand", name: "site.brand", widget: "string" }
+          - { label: "Email", name: "site.email", widget: "string" }
+          - { label: "Hero Headline (HTML allowed)", name: "hero.headline", widget: "text" }
+          - { label: "Hero Tagline", name: "hero.tagline", widget: "text" }
+          - { label: "CTA #1", name: "hero.primary_cta_text", widget: "string" }
+          - { label: "CTA #2", name: "hero.secondary_cta_text", widget: "string" }
+          - { label: "CTA #3", name: "hero.contact_cta_text", widget: "string" }
+          - label: "Server Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+              - { label: "Link (href)", name: "href", widget: "string" }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "string" }
+          - { label: "Disc Bag (HTML)", name: "disc.bag_html", widget: "text" }
+          - { label: "Disc Log Text", name: "disc.log_text", widget: "text" }

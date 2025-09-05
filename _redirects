@@ -1,0 +1,11 @@
+https://mine.philliphinshaw.com/*     /mine.html     200
+https://media.philliphinshaw.com/*    /media.html    200
+https://disc.philliphinshaw.com/*     /disc.html     200
+https://pickle.philliphinshaw.com/*   /pickle.html   200
+https://family.philliphinshaw.com/*   /family.html   200
+
+/mine    /mine.html   200
+/media   /media.html  200
+/disc    /disc.html   200
+/pickle  /pickle.html 200
+/family  /family.html 200

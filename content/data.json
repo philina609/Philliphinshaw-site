@@ -1,0 +1,69 @@
+{
+  "site": {
+    "title": "philliphinshaw.com \u00b7 Adventure Hub",
+    "brand": "philliphinshaw.com",
+    "email": "realdillphil@philliphinshaw.com",
+    "theme": "sunset-mountains"
+  },
+  "hero": {
+    "headline": "Phil Hinshaw\u2019s Adventure Hub",
+    "tagline": "Sunset over the mountains, servers humming below. Minecraft, requests, discs, and the legend of The Real Dill Phil.",
+    "primary_cta_text": "Explore Servers",
+    "secondary_cta_text": "See Projects",
+    "contact_cta_text": "Say Hi"
+  },
+  "cards": [
+    {
+      "id": "mine",
+      "title": "Minecraft",
+      "desc": "Connect: mine.philliphinshaw.com \u00b7 Java 25565 \u00b7 Bedrock 19132",
+      "href": "mc://mine.philliphinshaw.com:25565"
+    },
+    {
+      "id": "request",
+      "title": "Request Site",
+      "desc": "Overseerr \u2014 make media requests.",
+      "href": "https://request.philliphinshaw.com"
+    },
+    {
+      "id": "disc",
+      "title": "Disc Tracker",
+      "desc": "Bag layouts, flight notes, course logs, highlight throws.",
+      "href": "https://disc.philliphinshaw.com"
+    },
+    {
+      "id": "pickle",
+      "title": "Pickle Playground",
+      "desc": "Puns, Topgolf clips, and questionable brine content.",
+      "href": "https://pickle.philliphinshaw.com"
+    },
+    {
+      "id": "family",
+      "title": "Family Portal",
+      "desc": "Photos, journals, recipes. Use Cloudflare Access or basic auth.",
+      "href": "https://family.philliphinshaw.com"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Random Roast Generator",
+      "desc": "Button \u2192 roast. Made with love (and boundaries)."
+    },
+    {
+      "title": "AI Q&A on My Stuff",
+      "desc": "Ask about my scripts, photos, or trip notes. Private by design."
+    },
+    {
+      "title": "Photo Wall",
+      "desc": "Auto-pulls favorites from PhotoPrism/Nextcloud."
+    },
+    {
+      "title": "Lunch Menu in Teams",
+      "desc": "SharePoint embed + notifier so nobody misses Taco Tuesday."
+    }
+  ],
+  "disc": {
+    "bag_html": "<ul><li>Putters: Shogun, Aviar</li><li>Midranges: Stingray, Mako3, Truth</li><li>Fairways: Escape, Thunderbird, Prodigy F7/F1</li><li>Distance: Shryke, Destroyer</li></ul>",
+    "log_text": "Will Rogers (OKC) \u00b7 Tulsa trips \u00b7 New courses welcome. Best throw to date: pending that ace."
+  }
+}
